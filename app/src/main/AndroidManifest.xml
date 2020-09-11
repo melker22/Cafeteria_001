@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cafeteria_001">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icone_cooffee"
@@ -9,7 +11,8 @@
         android:roundIcon="@mipmap/icone_cooffee"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.SignUpActivity"></activity>
+        <activity android:name=".view.MenuButtonNavigation" />
+        <activity android:name=".view.SignUpActivity" />
         <activity android:name=".view.SignInActivity" />
         <activity android:name=".view.LoginActivity" />
         <activity android:name=".view.SplashActivity">
